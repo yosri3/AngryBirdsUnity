@@ -56,10 +56,8 @@ public class Ball : MonoBehaviour {
 	public void releaseBird(){
 		//if bird starts to slow down(due to spring pulling back) disable spring
 		if(previousVelocity.magnitude > rigidBody.velocity.magnitude){
-			//Component.Destroy (spring);
 			shot = true;
 			spring.enabled = false;
-			//this.enabled = false;
 		}
 	}
 
