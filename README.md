@@ -5,7 +5,7 @@ Current features:
 Slingshot
 
 Red bird
-Enemys
+Enemies
 
 Wooden planks
 Stones
